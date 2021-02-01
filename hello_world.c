@@ -2,6 +2,5 @@
 #include<stdio.h>
 int main()
 {
-printf(“Mohammed Bazlur”);
-}
-
+printf("Mohammed Bazlur");
+} 
