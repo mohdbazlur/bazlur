@@ -1,7 +1,7 @@
 //Write the program to print "Hello World !"
     #include<stdio.h>
     int main()
-		{
-			printf("Mohammed Bazlur");
-        return 0;
+    {
+		printf("Mohammed Bazlur");
+		return 0;
     } 
