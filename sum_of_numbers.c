@@ -3,11 +3,11 @@
 int main()
 {
 			float num1, num2, sum;
-			printf("enter first number:");
+			printf("enter first number:\n");
 			scanf("%f", &num1);
-			printf("enter second number:");
+			printf("enter second number:\n");
 			scanf("%f", &num2);
 			sum = num1 + num2;
-			printf("sum of %f and %f is %f",num1, num2, sum);
+			printf("sum of %f and %f is %f\n",num1, num2, sum);
 			return 0;
 }
