@@ -2,12 +2,12 @@
 #include<stdio.h>
 int main()
 {
-			int num1, num2, sum;
+			float num1, num2, sum;
 			printf("enter first number:");
-			scanf("%d", &num1);
+			scanf("%f", &num1);
 			printf("enter second number:");
-			scanf("%d", &num2);
+			scanf("%f", &num2);
 			sum = num1 + num2;
-			printf("sum is %d",sum);
+			printf("sum of %f and %f is %f",num1, num2, sum);
 			return 0;
 }
