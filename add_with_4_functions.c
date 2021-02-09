@@ -16,7 +16,6 @@ float sum(float num1,float num2)
 void output(float x,float y,float num)
 {
 			printf("Sum of %f and %f is  %f\n",x,y,num);
-			return 0;
 }
 int main()
 {
