@@ -7,17 +7,17 @@ float input()
 				scanf("%f",&num);
 				return num ;
 }
-    float volume(float h,float d, float b)
+float volume(float h,float d, float b)
 {
 				float volume;
 				volume=(((h * d * b) + (d / b)) / 3);
 				return volume;
 }
-    float output(float volume)
+float output(float volume)
 {
-    printf("volume of tramboloid is  %f",volume);
+printf("volume of tramboloid is  %f",volume);
 }
-    int main()
+int main()
 {
 				float h,d,b,v;
 				h=input();
