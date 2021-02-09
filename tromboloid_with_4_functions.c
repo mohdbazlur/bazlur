@@ -3,7 +3,7 @@
 float input()
 {
 				float num;
-				printf("Enter the value of h,d and b:");
+				printf("Enter the value of h,d and b in the respective order:");
 				scanf("%f",&num);
 				return num ;
 }
@@ -19,11 +19,11 @@ float input()
 }
     int main()
 {
-				float h,b,d,v;
+				float h,d,b,v;
 				h=input();
-				b=input();
 				d=input();
-				v=volume(h,b,d);
+				b=input();
+				v=volume(h,d,b);
 				output(v);
 				return 0;
 }
