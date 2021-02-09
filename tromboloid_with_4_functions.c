@@ -15,7 +15,7 @@ float volume(float h,float d, float b)
 }
 float output(float volume)
 {
-printf("volume of tramboloid is  %f",volume);
+				printf("volume of tramboloid is  %f",volume);
 }
 int main()
 {
