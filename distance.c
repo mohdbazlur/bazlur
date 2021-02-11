@@ -14,7 +14,7 @@ float distance(float x1,float x2, float y1,float y2)
 				distance= sqrt((x2-x1)*(x2-x1))+((y2-y1)*(y2-y1));
 				return distance;
 }
-float output(float distance)
+float output(float x1,float x2, float y1,float y2, float distance)
 {
 				printf("The distance between %f,%f and %f,%f is %f\n",x1,y1,x2,y2,sqrt(distance));
 }
@@ -26,6 +26,6 @@ int main()
 				y1=input();
 				y2=input();
 				d=distance(x1,x2,y1,y2);
-				output(d);
+				output(x1,x2,y1,y2,d);
 				return 0;
 }
