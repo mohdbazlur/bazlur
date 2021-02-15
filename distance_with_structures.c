@@ -10,9 +10,9 @@ typedef struct point Point;
 Point input()
 {
 		Point a;
-		printf("Enter the value of the coordinate x % lf: ");
+		printf("Enter the value of the coordinate x: ");
 		scanf("%f",&a.x);
-		printf("Enter the value of the coordinate y % lf:");
+		printf("Enter the value of the coordinate y:");
 		scanf("%f",&a.y);
 		return a;
 }
